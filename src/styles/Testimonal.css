@@ -1,0 +1,49 @@
+body{
+    background-color: black;
+}
+
+#testi{
+    color:#00e6e6;
+    font-size:medium;
+}
+p{
+    font-size:medium;
+}
+#vit{
+    /* width:150px; */
+    background-color: black;
+    border:3px solid #00e6e6;
+    color: #00e6e6;
+    padding:10px;
+    width:15%;
+    border-radius:5px;
+  
+
+}
+#vit:hover{
+    background-color:#00e6e6;
+    color:white;
+    transform: translate(0, -10px);
+    transition: ease-in-out 0.7sec;  
+}
+@media screen and (max-width:768px) and (min-width:320px){
+#testi{
+    margin-top:80px;
+}
+#client{
+    font-size:medium;
+    margin-top:20px;
+}
+img{
+    margin-left:50px;
+    margin-right:10px;
+    margin-bottom:10px;
+}
+#vit{
+    width:50%;
+    margin-top:20px;
+}
+.imgtext{
+    margin-top:10px;
+}
+}

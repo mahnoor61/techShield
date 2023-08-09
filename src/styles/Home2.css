@@ -1,0 +1,58 @@
+body{
+    background-color:#0a1010;
+}
+#h4{
+    color:#00e6e6;
+}
+img.game{
+    border-radius: 10px;
+}
+.AS{
+    color:#00e6e6;
+    font-size: 13px;
+}
+.ASS{
+    color:#00e6e6;
+  
+}
+.ASSS{
+    color:#00e6e6;
+    margin-left:35px;
+  
+}
+.ASSS{
+    font-size:medium;
+}
+@media screen and (max-width:768px) and (min-width:320px){
+   h5#h4{
+    margin-top: 150px;
+   }
+   h1#wel{
+    margin-top: 40px;
+    font-size:10px;
+    display: inline;
+   }
+   img.game{
+    /* margin-top: 20px;
+    margin-bottom: 5px;
+    margin-right:80px; */
+    margin:20px;
+   }
+   .ASSS{
+   
+    margin-left:0px;
+    margin-top:10px;
+    font-size:30px;
+  
+}
+.AS{
+    font-size:20px;
+}
+.ASS{
+    font-size:30px;
+}
+p#paragrapgh{
+    font-size:20px;
+}
+
+}
