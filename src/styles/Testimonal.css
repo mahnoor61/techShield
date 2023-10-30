@@ -1,5 +1,5 @@
 body{
-    background-color: black;
+    background-color:  #191919;
 }
 
 #testi{
@@ -11,7 +11,7 @@ p{
 }
 #vit{
     /* width:150px; */
-    background-color: black;
+    background-color:#191919;
     border:3px solid #00e6e6;
     color: #00e6e6;
     padding:10px;
@@ -35,7 +35,6 @@ p{
     margin-top:20px;
 }
 img{
-    margin-left:50px;
     margin-right:10px;
     margin-bottom:10px;
 }

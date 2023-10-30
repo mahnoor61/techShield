@@ -1,10 +1,10 @@
 import React from "react";
-import css from "../styles/Testimonal.css";
-import Navbar from "./Navbar";
+import"../styles/Testimonal.css";
+// import Navbar from "./Navbar";
 export default function Testimonal() {
   return (
     <>
-      <Navbar />
+      {/* <Navbar /> */}
       <div className="container-fluid">
         <div className="row mt-md-5">
           <div className="col-md-12">
@@ -33,9 +33,9 @@ export default function Testimonal() {
                   alt="t1"
                   className=" ml-md-5 rounded-circle"
                   width="10%"
-                  height="70px"
+                  height="10%"
                 />
-                <p className="text-muted  ml-md-3 mt-md-3 imgtext">
+                <p className="text-muted  ml-md-3 mt-md-2 imgtext">
                   Shanekj <br />
                  <small>Norwa</small>
                 </p>
@@ -55,9 +55,9 @@ export default function Testimonal() {
                   alt="t2"
                   className=" ml-md-5 rounded-circle"
                   width="10%"
-                  height="70px"
+                  height="10%"
                 />
-                <p className="text-muted  ml-md-3 mt-md-3 imgtext">
+                <p className="text-muted  ml-md-3 mt-md-2 imgtext">
                   kkmmharper <br/><small>United States</small>
                 </p>
               </div>
@@ -76,9 +76,9 @@ export default function Testimonal() {
                   alt="t3"
                   className=" ml-md-5 rounded-circle"
                   width="10%"
-                  height="70px"
+                  height="10%"
                 />
-                <p className="text-muted  ml-md-3 mt-md-3 imgtext">
+                <p className="text-muted  ml-md-3 mt-md-2 imgtext">
                 stitches81
                 <br />
                  <small>United States</small>
@@ -98,9 +98,9 @@ export default function Testimonal() {
                   alt="t3"
                   className=" ml-md-5 rounded-circle"
                   width="10%"
-                  height="70px"
+                  height="10%"
                 />
-                <p className="text-muted  ml-md-3 mt-md-3 imgtext">
+                <p className="text-muted  ml-md-3 mt-md-2 imgtext">
                     trungnguyen1211
                 <br />
                  <small>Vietnam</small>
@@ -108,12 +108,12 @@ export default function Testimonal() {
               </div>
             </div>
           </div>
-          <div className="row">
+          <div className="row mb-md-5">
             <div className="col-md-12">
               <button
                 type="button"
                 id="vit"
-                className="mx-auto d-block mt-md-5"
+                className="mx-auto d-block mt-md-5 mb-md-5"
               >
                 View All Testimonals
               </button>

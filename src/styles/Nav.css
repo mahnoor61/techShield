@@ -1,8 +1,9 @@
 .navbar-nav .nav-item .nav-link:hover{
     color:	 #00e6e6;
 }
-button#navButton:hover{
+a#navButton:hover{
     background-color: #00e6e6;
+    color:white;
 }
 /* button:hover{
     transform: translate(0, -5px);

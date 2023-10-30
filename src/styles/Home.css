@@ -1,3 +1,14 @@
+
+#background{
+    background-image: url('../../public/images/home/background.jpg');
+    background-repeat: no-repeat;
+    background-size:cover;
+    height:100vh;
+    background-position: center center;
+}
+h5#tec{
+    color:#00e6e6;
+}
 button#b2{
     background-color:#00e6e6;
 }
@@ -5,29 +16,12 @@ button#b2:hover{
     border:2px solid #00e6e6;
     background-color: black;
     color:white;
-    transform: translate(0, -10px);
-    transition: ease-in-out 0.7sec;
-}
-/* button:hover{
-    transform: translate(0, -10px);
-    transition: ease-in-out 0.7sec;
-}*/
-#background{
-    background-image: url('../../public/images/home/background.jpg');
-    background-repeat: no-repeat;
-    background-size:cover;
-    height:100vh;
-    /* width:100%; */
-    background-position: center center;
+    /* transform: translate(0, -10px);
+    transition: ease-in-out 0.7sec; */
 }
 
 @media screen and (max-width:768px) and (min-width:320px){
     button#b2{
         background-color:#00e6e6;
     } 
-    #tec{
-        margin-top:300px;
-    }
- 
-
 }

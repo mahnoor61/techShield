@@ -1,48 +1,93 @@
-/* swiper */
-#app {
-    height: 100%;
-  }
-  html,
-  body {
-    position: relative;
-    height: 100%;
-  }
-  
-  body {
-    background: #eee;
-    font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
-    font-size: 14px;
-    color: #000;
-    margin: 0;
-    padding: 0;
-  }
-  
-  .swiper {
+ div#portfolio {
+    background: url('../../public/images/portfolio/bg-image-1.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 70vh;
+    background-position: center;
+    box-shadow: rgba(33, 34, 37, 0.662) 0px 0px 0px 2000px inset;
+}
+
+.linkl {
+    text-decoration-line: none;
+}
+
+.linkli {
+    color: white;
+}
+
+.linkli:hover {
+    color: #00ffff;
+}
+
+.active {
+    color: #00ffff
+}
+
+#c1 {
+    background-image: url("../../public/images/portfolio/p1.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 50vh;
+    background-position: center;
+    box-shadow: rgba(33, 34, 37, 0.662) 0px 0px 0px 2000px inset;
+}
+
+#c2 {
+    background-image: url("../../public/images/design/pd1.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 50vh;
+    background-position: center;
+    box-shadow: rgba(33, 34, 37, 0.662) 0px 0px 0px 2000px inset;
+}
+
+#c3 {
+    background-image: url("../../public/images/portfolio/p3.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 50vh;
+    background-position: center;
+    box-shadow: rgba(33, 34, 37, 0.662) 0px 0px 0px 2000px inset;
+}
+
+#c4 {
+    background-image: url("../../public/images/portfolio/p4.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 50vh;
+    background-position: center;
+    box-shadow: rgba(33, 34, 37, 0.662) 0px 0px 0px 2000px inset;
+}
+
+#c5 {
+    background-image: url("../../public/images/portfolio/p5.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 50vh;
+    background-position: center;
+    box-shadow: rgba(33, 34, 37, 0.662) 0px 0px 0px 2000px inset;
+}
+
+#c6 {
+    background-image: url("../../public/images/portfolio/p6.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 50vh;
+    background-position: center;
+    box-shadow: rgba(33, 34, 37, 0.662) 0px 0px 0px 2000px inset;
+}
+.portcard:hover {
+    background-color: #00ffff;
+    position: absolute;
+    top: 0;
+    left: 0;
     width: 100%;
     height: 100%;
-  }
-body{
-    background-color: black;
+    z-index: 3;
 }
-#project{
-    color:#00e6e6;
-    font-size: medium;
-}
-#butPort{
-    /* width:150px; */
-    background-color: black;
-    border:3px solid #00e6e6;
-    color: #00e6e6;
-    padding:10px;
-    width:15%;
-    border-radius:5px;
-  
-
-}
-#butPort:hover{
-    background-color:#00e6e6;
+.portcard:hover .btn {
+    background-color:  #00ffff;
     color:white;
-}
-@media screen and (max-width:768px) and (min-width:320px){
+  }
 
-}
+

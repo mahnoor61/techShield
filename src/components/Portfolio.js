@@ -1,53 +1,106 @@
-import React from 'react';
-import css from '../styles/Portfolio.css';
-import  { useRef, useState } from 'react';
-import 'swiper/css';
-import { Swiper, SwiperSlide } from 'swiper/react';
-import { Pagination } from 'swiper/modules';
-import 'swiper/css/pagination';
-export default function Portfolio() {
+import React from "react";
+import "../styles/Portfolio.css";
+import { Link } from "react-router-dom";
+import PortfolioCard from "./PortfolioCard";
+
+const Portfolio = () => {
   return (
     <>
-    <div className="container-fluid">
-     <div className="row mt-md-5">
-        <div className="col-md-12">
-        <p id="project" className="mt-md-5 text-center">Featured Projects</p>
-        <h1 className='text-center  text-white' id="portfolio">PORTFOLIO</h1>
-        <hr color="white" width="200px"/>
-        </div>
-        </div> 
-        <div className="row mt-md-5">
-            <div className="col-md-12">
-            {/* slider */}
-            <Swiper
-        slidesPerView={3}
-        spaceBetween={30}
-        pagination={{
-          clickable: true,
-        }}
-        modules={[Pagination]}
-        className="mySwiper"
-      >
-        <SwiperSlide>Slide 1</SwiperSlide>
-        <SwiperSlide>Slide 2</SwiperSlide>
-        <SwiperSlide>Slide 3</SwiperSlide>
-        <SwiperSlide>Slide 4</SwiperSlide>
-        <SwiperSlide>Slide 5</SwiperSlide>
-        <SwiperSlide>Slide 6</SwiperSlide>
-        <SwiperSlide>Slide 7</SwiperSlide>
-        <SwiperSlide>Slide 8</SwiperSlide>
-        <SwiperSlide>Slide 9</SwiperSlide>
-      </Swiper>
+      <div className="container-fluid" id="portfolio">
+        <div className=" mb-md-5 d-flex w-100 h-100 justify-content-center align-items-center  justify-content-sm-center align-items-sm-center flex-wrap">
+          <div>
+            <h1 className="display-3 font-weight-bolder mt-md-5" id="top">
+              Our Portfolio
+            </h1>
+            <div className="d-flex w-100">
+              <div className="col-md-12">
+                <ul className="nav justify-content-center">
+                  <li className="nav-item">
+                    <Link to="/" className="linkli mr-3">
+                      Home
+                    </Link>
+                  </li>
+                  <li className="nav-item">
+                    <Link to="/portfolio" className="linkli active">
+                      Portfolio
+                    </Link>
+                  </li>
+                </ul>
+              </div>
             </div>
+          </div>
         </div>
-        <div className="row">
-<div className="col-md-12">
-    <button type="button" id="butPort" className='mx-auto d-block mt-md-5 p-md-3'>View All Portfolio</button>
-</div>
+      </div>
 
-
+      <div className="container h-100" style={{ backgroundColor: "191919" }}>
+        <div className="row mt-md-5 ">
+          <div className="col-md-4">
+            <PortfolioCard
+              title="Game Development"
+              text="Portfolio Design6"
+              but="Case Study"
+              id="c1"
+              className="portcard"
+              to="/design6"
+            />
+          </div>
+          <div className="col-md-4">
+            <PortfolioCard
+              title="Game Development"
+              text="Portfolio Design5"
+              but="Case Study"
+              id="c2"
+              className="portcard"
+              to="/design5"
+            />
+          </div>
+          <div className="col-md-4">
+            <PortfolioCard
+              title="Game Development"
+              text="Portfolio Design4"
+              but="Case Study"
+              id="c3"
+              className="portcard"
+              to="/design4"
+            />
+          </div>
         </div>
+        <div className="row  pt-md-5 pb-md-5">
+          <div className="col-md-4">
+            <PortfolioCard
+              title="Game Development"
+              text="Portfolio Design3"
+              but="Case Study"
+              id="c4"
+              className="portcard"
+              to="/design3"
+            />
+          </div>
+          <div className="col-md-4">
+            <PortfolioCard
+              title="Game Development"
+              text="Portfolio Design2"
+              but="Case Study"
+              id="c5"
+              className="portcard"
+              to="/design2"
+            />
+          </div>
+          <div className="col-md-4">
+            <PortfolioCard
+              title="Game Development"
+              text="Portfolio Design1"
+              but="Case Study"
+              id="c6"
+              className="portcard"
+              to="/design1"
+            />
+          </div>
         </div>
+      </div>
+      {/* <Footer /> */}
     </>
-  )
-}
+  );
+};
+
+export default Portfolio;

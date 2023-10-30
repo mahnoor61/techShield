@@ -1,0 +1,100 @@
+
+#app {
+    height: 100%;
+  }
+  html,
+  body {
+    position: relative;
+    height: 100%;
+    background-color:  #191919;
+  }
+  
+  body {
+    background: #eee;
+    font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+    font-size: 14px;
+    color: #000;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .swiper {
+    width: 100%;
+    height: 100%;
+  }
+body{
+    background-color:  #191919;
+}
+#project{
+    color:#00e6e6;
+    font-size: medium;
+}
+#butPort{
+    background-color: #191919;
+    border:3px solid #00e6e6;
+    color: #00e6e6;
+    padding:10px;
+    width:15%;
+    border-radius:5px;
+    text-decoration-line: none;
+}
+#butPort:hover{
+    background-color:#00e6e6;
+    color:white;
+} 
+div#s1{
+  background-image: url('../../public/images/gallery/d1.jpg');
+  background-size: cover;
+  height:70vh;
+  width:100%;
+  box-shadow: rgba(33, 34, 37, 0.662) 0px 0px 0px 2000px inset;
+}
+div#s2{
+  background-image: url('../../public/images/gallery/d2.jpg');
+  background-size: cover;
+  height:70vh;
+  width:100%;
+  box-shadow: rgba(33, 34, 37, 0.662) 0px 0px 0px 2000px inset;
+}
+div#s3{
+  background-image: url('../../public/images/gallery/d3.jpg');
+  background-size: cover;
+  height:70vh;
+  width:100%;
+  box-shadow: rgba(33, 34, 37, 0.662) 0px 0px 0px 2000px inset;
+}
+div#s4{
+  background-image: url('../../public/images/gallery/d4.jpg');
+  background-size: cover;
+  height:70vh;
+  width:100%;
+  box-shadow: rgba(33, 34, 37, 0.662) 0px 0px 0px 2000px inset;
+}
+div#s5{
+  background-image: url('../../public/images/gallery/d5.jpg');
+  background-size: cover;
+  height:70vh;
+  width:100%;
+  box-shadow: rgba(33, 34, 37, 0.662) 0px 0px 0px 2000px inset;
+}
+div#s6{
+  background-image: url('../../public/images/gallery/d6.jpg');
+  background-size: cover;
+  height:70vh;
+  width:100%;
+  box-shadow: rgba(33, 34, 37, 0.662) 0px 0px 0px 2000px inset;
+}
+
+.sh:hover button {
+  background-color: #00e6e6;
+  color: white;
+}
+
+ @media screen and (max-width:768px) and (min-width:320px){
+  #butPort{
+    width:40%;
+    margin:20px;
+}
+} 
+
+

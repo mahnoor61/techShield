@@ -1,0 +1,47 @@
+
+/* Footer.css */
+i.fab:hover {
+    color: #00e6e6;
+  }
+  
+  i.fab {
+    font-size: 40px;
+    border: 2px solid white;
+    border-radius: 20px;
+    padding: 7px;
+  }
+  
+  /* Add responsive styles */
+  @media screen and (max-width: 768px) {
+    .social-icons {
+      margin-top: 20px;
+    }
+  
+    i.fab {
+      margin: 10px;
+    }
+  
+    p.reserved {
+      margin: 10px 0;
+    }
+  
+    img.logo {
+      margin-top: 20px;
+    }
+  }
+  
+  /* Add additional styles for an attractive design */
+  .footer {
+    background-image: inherit;
+    background-color: #101010;
+    color: white;
+  }
+  
+  .social-icons i {
+    transition: color 0.3s;
+  }
+  
+  .social-icons i:hover {
+    color: #00e6e6;
+  }
+  

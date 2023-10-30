@@ -1,0 +1,82 @@
+ div#contact{
+    background:url('../../public/images/portfolio/bg-image-1.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height:70vh;
+    background-position: center;
+    box-shadow: rgba(33, 34, 37, 0.662) 0px 0px 0px 2000px inset;
+}
+#top{
+    color: #00ffff;
+}
+.linkl{
+    text-decoration-line: none;
+}
+.linkli{
+    color:white;
+}
+.linkli:hover{
+    color: #00ffff;
+}
+.active{
+    color: #00ffff
+
+}
+.cut{
+    color:#00ffff;
+}
+.cuth6{
+    color:#00ffff;
+}
+.main2{
+    background-color:  #101010;
+ 
+}
+.main3{
+    background-color: black;
+}
+.icon{
+    font-size: 30px;
+}
+.design:hover{
+    background-color:#00ffff;
+    color:white; 
+
+} 
+.design:hover .cut {
+    color: white;
+  }
+@media screen and (max-width:768px) and (min-width:320px){
+    #top{
+       font-size: 30px;
+    }
+    div#contact{
+        height:50vh;
+    } 
+    .cuth6{
+       margin-top: 100px;
+    }
+    #build{
+        font-size: 20px;
+        margin-top: 20px;
+        font-weight: bold;
+    }
+    .text{
+        text-align:justify;
+        margin-top: 20px;
+    }
+    .cu{
+        margin-top: 20px;
+    }
+    .grl{
+        margin:20px;
+        margin-left: 60px;
+    }
+    form{
+        margin-top: 20px;
+    }
+    .design{
+        margin-bottom: 20px;
+    }
+} 
+

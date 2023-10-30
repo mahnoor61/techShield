@@ -1,5 +1,5 @@
 body{
-    background-color: black;
+    background-color:  #191919;
 }
 #images{
     color:#00e6e6;
@@ -7,14 +7,12 @@ body{
 }
 #vim{
     /* width:150px; */
-    background-color: black;
+    background-color: #191919;
     border:3px solid #00e6e6;
     color: #00e6e6;
     padding:10px;
     width:15%;
     border-radius:5px;
-  
-
 }
 #vim:hover{
     background-color:#00e6e6;
@@ -23,14 +21,14 @@ body{
     transition: ease-in-out 0.7sec;  
 }
 /* for annimation */
-img:hover{
+.galleryImg:hover{
     transform: translate(0, -10px);
     transition: ease-in-out 0.7sec;
 }
-/* #vim:hover{
-    transform: translate(0, -10px);
-    transition: ease-in-out 0.7sec;  
-} */
-@media screen and (max-width:768px) and (min-width:320px){
 
+@media screen and (max-width:768px) and (min-width:320px){
+    #vim{
+        width:40%;
+        margin:20px;
+    }
 }
